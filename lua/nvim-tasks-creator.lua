@@ -70,7 +70,7 @@ function M.create_task()
 
 	local todo_text = line:match("TODO:%s*(.+)")
 	if not todo_text then
-		print("No TODO found in current line.")
+		print("No TODO found in current line")
 		return
 	end
 
